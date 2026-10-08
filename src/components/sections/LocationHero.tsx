@@ -96,7 +96,7 @@ export default function LocationHero({ location }: LocationHeroProps) {
             size="lg"
             className="border-white/30 bg-transparent text-white hover:bg-white/10 text-base px-8 py-6 rounded-xl"
           >
-            <a href="tel:01438500156">Call 01438 500156</a>
+            <a href="tel:07479645823">Call 07479 645823</a>
           </Button>
         </motion.div>
       </div>

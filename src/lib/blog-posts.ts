@@ -39,7 +39,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "6 Weeks Before: Get Your Quotes and Book Early",
-        body: "Don't leave booking your removals company until the last week. Good companies get booked up, especially at the end of the month and during summer. Get at least two or three quotes so you can compare. When you call us at Herts Man With A Van on 01438 500156, we'll give you a free, no-obligation quote over the phone — no need for a survey for most jobs.\n\nAt this stage, you should also start notifying important services of your address change: your bank, GP, dentist, DVLA, employers, and HMRC. It's easy to forget, so keep a running list on your phone.",
+        body: "Don't leave booking your removals company until the last week. Good companies get booked up, especially at the end of the month and during summer. Get at least two or three quotes so you can compare. When you call us at Herts Man With A Van on 07479 645823, we'll give you a free, no-obligation quote over the phone — no need for a survey for most jobs.\n\nAt this stage, you should also start notifying important services of your address change: your bank, GP, dentist, DVLA, employers, and HMRC. It's easy to forget, so keep a running list on your phone.",
       },
       {
         heading: "4 Weeks Before: Start Packing Non-Essentials",
@@ -232,7 +232,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Why Local Matters",
-        body: "Choosing a local removals company has real practical benefits. We're based in Welwyn Garden City, which means we know every road, estate, and potential parking challenge across Hertfordshire. We know which council requires parking permits, which roads are tricky for vans, and which areas have restricted access.\n\nLocal also means lower costs — we're not travelling for an hour just to reach you, so you're not paying for dead mileage. And if anything ever needs following up after the move, we're right here.\n\nIf you're moving within Hertfordshire or from Hertfordshire to anywhere in the UK, give us a call on 01438 500156. We'll give you an honest quote, we're fully insured, and we'll look after your move as if it were our own.",
+        body: "Choosing a local removals company has real practical benefits. We're based in Welwyn Garden City, which means we know every road, estate, and potential parking challenge across Hertfordshire. We know which council requires parking permits, which roads are tricky for vans, and which areas have restricted access.\n\nLocal also means lower costs — we're not travelling for an hour just to reach you, so you're not paying for dead mileage. And if anything ever needs following up after the move, we're right here.\n\nIf you're moving within Hertfordshire or from Hertfordshire to anywhere in the UK, give us a call on 07479 645823. We'll give you an honest quote, we're fully insured, and we'll look after your move as if it were our own.",
       },
     ],
   },

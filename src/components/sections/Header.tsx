@@ -58,11 +58,11 @@ export default function Header() {
             <span className="hidden sm:inline text-xs">phil@hertsmanwithavan.com</span>
           </a>
           <a
-            href="tel:01438500156"
+            href="tel:07479645823"
             className="flex items-center gap-2 hover:text-primary transition-colors"
           >
             <Phone className="w-3.5 h-3.5" />
-            <span className="text-xs">01438 500156</span>
+            <span className="text-xs">07479 645823</span>
           </a>
         </div>
       </div>
@@ -107,7 +107,7 @@ export default function Header() {
             </NavigationMenu>
 
             <Button asChild size="sm" className="ml-4 bg-primary hover:bg-primary/90 text-white shadow-sm">
-              <a href="tel:01438500156">
+              <a href="tel:07479645823">
                 <Phone className="w-3.5 h-3.5 mr-1.5" />
                 Call Now
               </a>
@@ -148,7 +148,7 @@ export default function Header() {
                   ))}
                   <div className="px-3 pt-4">
                     <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white">
-                      <a href="tel:01438500156">
+                      <a href="tel:07479645823">
                         <Phone className="w-4 h-4 mr-2" />
                         Call Now
                       </a>

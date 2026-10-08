@@ -8,7 +8,7 @@ import ContactForm from "@/components/sections/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us | Free Removals Quote",
   description:
-    "Get in touch with Herts Man With A Van for a free, no-obligation removals quote in Welwyn Garden City, Stevenage, Hatfield, and across Hertfordshire. Call 01438 500156.",
+    "Get in touch with Herts Man With A Van for a free, no-obligation removals quote in Welwyn Garden City, Stevenage, Hatfield, and across Hertfordshire. Call 07479 645823.",
   keywords: [
     "removals quote Hertfordshire",
     "free quote man with a van",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Us | Free Removals Quote | Herts Man With A Van",
     description:
-      "Get a free, no-obligation removals quote. Call 01438 500156 or fill in our online form.",
+      "Get a free, no-obligation removals quote. Call 07479 645823 or fill in our online form.",
   },
 };
 

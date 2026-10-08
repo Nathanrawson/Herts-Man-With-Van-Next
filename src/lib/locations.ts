@@ -63,7 +63,7 @@ export const locations: Location[] = [
       {
         question: "How much does a man with a van cost in Stevenage?",
         answer:
-          "Prices depend on the size of the job, distance, and time required. We offer free, no-obligation quotes — just call us on 01438 500156 or fill in our contact form for a personalised price.",
+          "Prices depend on the size of the job, distance, and time required. We offer free, no-obligation quotes — just call us on 07479 645823 or fill in our contact form for a personalised price.",
       },
       {
         question: "Do you cover all areas of Stevenage?",
@@ -92,7 +92,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in Welwyn Garden City | Man With A Van WGC | Herts Man With A Van",
     metaDescription:
-      "Local removals experts based in Welwyn Garden City. Fully insured house moves, office relocations, and single-item pickups across AL7 & AL8. Call 01438 500156.",
+      "Local removals experts based in Welwyn Garden City. Fully insured house moves, office relocations, and single-item pickups across AL7 & AL8. Call 07479 645823.",
     heroHeading: "Your Local Removals Company in Welwyn Garden City",
     heroDescription:
       "Based right here in Welwyn Garden City, Herts Man With A Van offers fast, fully insured removals for homes and businesses. From Panshanger to Peartree, we're your trusted local mover.",
@@ -121,7 +121,7 @@ export const locations: Location[] = [
       {
         question: "How quickly can you do a move in Welwyn Garden City?",
         answer:
-          "As we're based in WGC, we can often arrange same-day or next-day moves. Call us on 01438 500156 and we'll do our best to fit you in.",
+          "As we're based in WGC, we can often arrange same-day or next-day moves. Call us on 07479 645823 and we'll do our best to fit you in.",
       },
       {
         question: "Do you cover all WGC postcodes?",
@@ -145,7 +145,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in Hatfield | Man With A Van Hatfield | Herts Man With A Van",
     metaDescription:
-      "Affordable and insured removals in Hatfield. House moves, office relocations, and student moves near the University of Hertfordshire. Free quotes — call 01438 500156.",
+      "Affordable and insured removals in Hatfield. House moves, office relocations, and student moves near the University of Hertfordshire. Free quotes — call 07479 645823.",
     heroHeading: "Reliable Removals Service in Hatfield",
     heroDescription:
       "Herts Man With A Van provides fast, fully insured removals in Hatfield. Whether you're a student near the University of Hertfordshire or a family in Old Hatfield, we make moving simple.",
@@ -198,7 +198,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in Hertford | Man With A Van Hertford | Herts Man With A Van",
     metaDescription:
-      "Professional removals in Hertford, Hertfordshire. Fully insured house & office moves across SG13 & SG14. Trusted since 2017. Call 01438 500156 for a free quote.",
+      "Professional removals in Hertford, Hertfordshire. Fully insured house & office moves across SG13 & SG14. Trusted since 2017. Call 07479 645823 for a free quote.",
     heroHeading: "Professional Removals in Hertford",
     heroDescription:
       "Moving in or out of Hertford? Herts Man With A Van offers fully insured, affordable removals across the county town. From Bengeo to the town centre, we've got you covered.",
@@ -227,7 +227,7 @@ export const locations: Location[] = [
       {
         question: "How much does a removal in Hertford cost?",
         answer:
-          "Every job is different. Contact us for a free, no-obligation quote tailored to your specific move. Call 01438 500156 or use our online form.",
+          "Every job is different. Contact us for a free, no-obligation quote tailored to your specific move. Call 07479 645823 or use our online form.",
       },
       {
         question: "Can you navigate Hertford's narrow streets?",
@@ -251,7 +251,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in St Albans | Man With A Van St Albans | Herts Man With A Van",
     metaDescription:
-      "Fully insured removals in St Albans. House moves, office relocations & more across AL1–AL4. Trusted Hertfordshire removals company. Call 01438 500156.",
+      "Fully insured removals in St Albans. House moves, office relocations & more across AL1–AL4. Trusted Hertfordshire removals company. Call 07479 645823.",
     heroHeading: "Insured Removals Service in St Albans",
     heroDescription:
       "Herts Man With A Van offers reliable, fully insured removals throughout St Albans. From Marshalswick to London Colney, we provide careful, efficient moves at competitive prices.",
@@ -304,7 +304,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in Hitchin | Man With A Van Hitchin | Herts Man With A Van",
     metaDescription:
-      "Trusted man with a van in Hitchin. Fully insured removals for homes and businesses across SG4 & SG5. Free quotes — call 01438 500156.",
+      "Trusted man with a van in Hitchin. Fully insured removals for homes and businesses across SG4 & SG5. Free quotes — call 07479 645823.",
     heroHeading: "Affordable Removals in Hitchin",
     heroDescription:
       "Need a removal in Hitchin? Herts Man With A Van provides fast, fully insured moves for homes and businesses. From single items to full house moves, we've got Hitchin covered.",
@@ -333,7 +333,7 @@ export const locations: Location[] = [
       {
         question: "How much is a man with a van in Hitchin?",
         answer:
-          "Prices vary based on job size and distance. Call 01438 500156 or use our contact form for a free, no-obligation quote.",
+          "Prices vary based on job size and distance. Call 07479 645823 or use our contact form for a free, no-obligation quote.",
       },
       {
         question: "Can you help with a house clearance in Hitchin?",
@@ -357,7 +357,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in Letchworth | Man With A Van Letchworth | Herts Man With A Van",
     metaDescription:
-      "Reliable removals in Letchworth Garden City. Fully insured man with a van service for homes & offices in SG6. Call 01438 500156 for a free quote.",
+      "Reliable removals in Letchworth Garden City. Fully insured man with a van service for homes & offices in SG6. Call 07479 645823 for a free quote.",
     heroHeading: "Reliable Removals in Letchworth Garden City",
     heroDescription:
       "From the world's first garden city to anywhere in the UK — Herts Man With A Van provides fully insured, professional removals in Letchworth. Affordable prices, careful service.",
@@ -396,7 +396,7 @@ export const locations: Location[] = [
       {
         question: "Do you provide free quotes for Letchworth moves?",
         answer:
-          "Of course. Every quote is free with no obligation. Just call 01438 500156 or fill in our contact form.",
+          "Of course. Every quote is free with no obligation. Just call 07479 645823 or fill in our contact form.",
       },
     ],
   },
@@ -410,7 +410,7 @@ export const locations: Location[] = [
     metaTitle:
       "Removals in Potters Bar | Man With A Van Potters Bar | Herts Man With A Van",
     metaDescription:
-      "Professional removals in Potters Bar, Hertfordshire. Fully insured man with a van for house moves, deliveries & office moves in EN6. Call 01438 500156.",
+      "Professional removals in Potters Bar, Hertfordshire. Fully insured man with a van for house moves, deliveries & office moves in EN6. Call 07479 645823.",
     heroHeading: "Professional Removals in Potters Bar",
     heroDescription:
       "Herts Man With A Van provides fast, fully insured removals across Potters Bar. Whether you're moving locally or further afield, we deliver a careful, reliable service every time.",
@@ -449,7 +449,7 @@ export const locations: Location[] = [
       {
         question: "How do I book a removal in Potters Bar?",
         answer:
-          "Simply call us on 01438 500156 or fill in our online contact form. We'll arrange a free quote and find a time that suits you.",
+          "Simply call us on 07479 645823 or fill in our online contact form. We'll arrange a free quote and find a time that suits you.",
       },
     ],
   },

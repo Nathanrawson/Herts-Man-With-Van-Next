@@ -5,7 +5,7 @@ import { Facebook, Phone, Mail } from "lucide-react";
 const socialLinks = [
   {
     label: "Call",
-    href: "tel:01438500156",
+    href: "tel:07479645823",
     icon: Phone,
     color: "bg-primary",
   },

@@ -11,7 +11,7 @@ export default function LocationJsonLd({ location }: LocationJsonLdProps) {
     "@id": `https://www.hertsmanwithavan.com/removals/${location.slug}#business`,
     name: "Herts Man With A Van",
     url: `https://www.hertsmanwithavan.com/removals/${location.slug}`,
-    telephone: "01438 500156",
+    telephone: "07479 645823",
     email: "phil@hertsmanwithavan.com",
     image:
       "https://www.hertsmanwithavan.com/assets/images/logo.jpg",

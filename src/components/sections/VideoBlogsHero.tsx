@@ -87,9 +87,9 @@ export default function VideoBlogsHero() {
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white text-base px-8 py-6 rounded-xl shadow-lg shadow-primary/25"
           >
-            <a href="tel:01438500156">
+            <a href="tel:07479645823">
               <Phone className="w-5 h-5 mr-2" strokeWidth={2.5} />
-              01438 500156
+              07479 645823
             </a>
           </Button>
           <Button

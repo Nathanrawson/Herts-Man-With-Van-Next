@@ -44,9 +44,9 @@ export default function CTA() {
             size="lg"
             className="bg-white text-primary hover:bg-white/90 px-10 py-7 rounded-xl text-lg font-bold shadow-lg"
           >
-            <a href="tel:01438500156">
+            <a href="tel:07479645823">
               <Phone className="w-5 h-5 mr-2" />
-              01438 500156
+              07479 645823
             </a>
           </Button>
           <Button

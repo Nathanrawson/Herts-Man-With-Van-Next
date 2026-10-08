@@ -5,7 +5,7 @@ export default function SiteJsonLd() {
     "@id": "https://www.hertsmanwithavan.com/#business",
     name: "Herts Man With A Van",
     url: "https://www.hertsmanwithavan.com",
-    telephone: "01438 500156",
+    telephone: "07479 645823",
     email: "phil@hertsmanwithavan.com",
     foundingDate: "2017",
     image: "https://www.hertsmanwithavan.com/assets/images/logo.jpg",
