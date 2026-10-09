@@ -681,6 +681,7 @@ export default function ContactForm() {
 
                     {step < TOTAL_STEPS ? (
                       <Button
+                        key="continue"
                         type="button"
                         size="lg"
                         onClick={() => {
@@ -697,6 +698,7 @@ export default function ContactForm() {
                       </Button>
                     ) : (
                       <Button
+                        key="submit"
                         type="submit"
                         disabled={formState === "submitting"}
                         size="lg"
