@@ -106,6 +106,13 @@ ${message ? `Message: ${message}` : ""}
     if (!res.ok) {
       const detail = await res.text();
       console.error("Resend error:", res.status, detail);
+      if (process.env.NODE_ENV !== "production") {
+        // Show the real reason while developing locally
+        return NextResponse.json(
+          { error: `Resend ${res.status}: ${detail}` },
+          { status: 500 }
+        );
+      }
       throw new Error(`Resend responded ${res.status}`);
     }
 
