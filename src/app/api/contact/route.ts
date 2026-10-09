@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import * as postmark from "postmark";
 
 export async function POST(request: NextRequest) {
   try {
@@ -28,19 +27,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const apiToken = process.env.POSTMARK_API_TOKEN;
+    const apiKey = process.env.RESEND_API_KEY;
     const toEmail = process.env.CONTACT_EMAIL_TO;
-    const fromEmail = process.env.CONTACT_EMAIL_FROM;
+    // Until your domain is verified in Resend, use "onboarding@resend.dev"
+    // (it can only deliver to the email address you signed up to Resend with).
+    const fromEmail =
+      process.env.CONTACT_EMAIL_FROM ||
+      "Herts Man With A Van <onboarding@resend.dev>";
 
-    if (!apiToken || !toEmail || !fromEmail) {
-      console.error("Missing Postmark environment variables");
+    if (!apiKey || !toEmail) {
+      console.error("Missing Resend environment variables");
       return NextResponse.json(
         { error: "Email service is not configured." },
         { status: 500 }
       );
     }
-
-    const client = new postmark.ServerClient(apiToken);
 
     const htmlBody = `
       <h2>New Enquiry from hertsmanwithavan.com</h2>
@@ -86,15 +87,27 @@ ${movingDate ? `Approx Moving Date: ${movingDate}` : ""}
 ${message ? `Message: ${message}` : ""}
     `.trim();
 
-    await client.sendEmail({
-      From: fromEmail,
-      To: toEmail,
-      Subject: `New Enquiry from ${name} - hertsmanwithavan.com`,
-      HtmlBody: htmlBody,
-      TextBody: textBody,
-      ReplyTo: email,
-      MessageStream: "outbound",
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: fromEmail,
+        to: toEmail.split(",").map((e) => e.trim()),
+        subject: `New Enquiry from ${name} - hertsmanwithavan.com`,
+        html: htmlBody,
+        text: textBody,
+        reply_to: email,
+      }),
     });
+
+    if (!res.ok) {
+      const detail = await res.text();
+      console.error("Resend error:", res.status, detail);
+      throw new Error(`Resend responded ${res.status}`);
+    }
 
     return NextResponse.json(
       { message: "Enquiry sent successfully!" },
